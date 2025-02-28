@@ -45,8 +45,14 @@
         "laravel/jetstream": "^5.3.5",
         "tomatophp/filament-cms": "^1.0.30",
         "tomatophp/filament-menus": "^1.0.8",
-        "tomatophp/filament-seo": "^1.0.3",
-        "tomatophp/filament-settings-hub": "^1.0.10",
+        "tomatophp/filament-seo": "^1.0.5",
+        "tomatophp/filament-settings-hub": "^2.0",
         "tomatophp/filament-types": "^1.0.27"
+    },
+    "repositories": {
+        "tomatophp/filament-seo": {
+            "type": "vcs",
+            "url": "https://github.com/crimsonstrife/filament-seo"
+        }
     }
 }
